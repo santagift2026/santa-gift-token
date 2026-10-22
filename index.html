@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b281e">
+<meta name="description" content="Santa Gift Token (SANTAGIFT), a Christmas-themed Solana community token concept.">
+<title>Santa Gift Token | SANTAGIFT</title>
+<style>
+:root{--forest:#0b281e;--green:#124832;--red:#e34d52;--gold:#ffd778;--cream:#fff8e9;--muted:#c9dbd0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--forest);color:var(--cream);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit}button{font:inherit}.wrap{width:min(1100px,92%);margin:auto}header{padding:18px 0}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:850}.brand img{width:44px;height:44px;object-fit:cover;border-radius:50%}.navlinks{display:flex;gap:22px}.navlinks a{text-decoration:none;color:var(--muted);font-size:14px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border:0;border-radius:999px;text-decoration:none;font-weight:800;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px)}.red{background:var(--red);color:white}.gold{background:var(--gold);color:#30220a}.ghost{border:1px solid #ffffff40;background:#ffffff0a;color:var(--cream)}.hero{background:radial-gradient(ellipse at 80% 40%,#286447 0,transparent 35%),linear-gradient(135deg,#0b281e,#103d2b);padding:62px 0 72px}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center}.pill{display:inline-block;border:1px solid #ffd77870;border-radius:99px;padding:6px 12px;color:var(--gold);font-size:12px;letter-spacing:1.5px;font-weight:900;text-transform:uppercase}.hero h1{font-size:clamp(42px,6vw,70px);line-height:1.04;letter-spacing:-2px;margin:18px 0}.hero h1 span{color:var(--gold)}p{color:var(--muted)}.hero p{font-size:18px;max-width:600px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.hero-art{text-align:center}.hero-art img{width:min(360px,85%);aspect-ratio:1;object-fit:cover;border-radius:50%;filter:drop-shadow(0 20px 30px #0005)}.tiny{font-size:12px!important}.ticker{text-align:center;padding:12px;color:var(--gold);background:#071d16;letter-spacing:2px;font-weight:800;font-size:12px}.section{padding:70px 0}.head{text-align:center;max-width:700px;margin:0 auto 34px}.kicker{color:var(--red);font-size:12px;font-weight:900;letter-spacing:2px;text-transform:uppercase}.section h2{font-size:clamp(30px,4vw,44px);line-height:1.1;margin:10px 0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card,.panel{background:linear-gradient(145deg,#164631,#103523);border:1px solid #ffffff18;border-radius:22px;padding:24px}.emoji{font-size:30px}.card h3{margin:8px 0}.card p{margin-bottom:0}.dark{background:#081f17}.details{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.rowline{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid #ffffff20}.rowline:last-child{border-bottom:0}.rowline span{color:var(--muted)}.rowline strong{text-align:right;overflow-wrap:anywhere}.warning{border-left:3px solid var(--gold);background:#ffd77812;border-radius:0 12px 12px 0;padding:13px 15px;font-size:13px;color:#f7e7bd}.wallet-status{font-size:13px;color:var(--gold);min-height:22px;margin-top:10px;overflow-wrap:anywhere}.cta{background:linear-gradient(110deg,#b9343e,#e34d52);border-radius:26px;padding:34px;display:flex;align-items:center;justify-content:space-between;gap:20px}.cta h2{margin:0}.footer{border-top:1px solid #ffffff20;padding:26px 0;font-size:13px;color:var(--muted)}.footrow{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.status{display:inline-block;border-radius:99px;background:#ffd77818;color:var(--gold);padding:4px 9px;font-size:12px;font-weight:800}
+@media(max-width:760px){.navlinks{display:none}.hero{padding:42px 0}.hero-grid,.details{grid-template-columns:1fr}.hero-art{order:-1}.hero-art img{width:220px}.cards{grid-template-columns:1fr}.section{padding:52px 0}.cta{align-items:flex-start;flex-direction:column}.hero h1{letter-spacing:-1px}}
+</style>
+</head>
+<body>
+<header class="wrap"><nav class="nav">
+<a class="brand" href="#home"><img src="assets/santa-gift-logo.png" alt="Santa Gift logo"><span>Santa Gift <span style="color:var(--gold)">Token</span></span></a>
+<div class="navlinks"><a href="#about">About</a><a href="#token">Token details</a><a href="#community">Community</a></div>
+<button class="btn red" id="navConnect">Connect wallet</button>
+</nav></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid"><div>
+<span class="pill">🎄 Solana Christmas community token</span>
+<h1>Give a little.<br>Spread <span>Christmas</span><br>cheer.</h1>
+<p>Meet Santa Gift Token (SANTAGIFT), a festive community-token concept inspired by generosity, holiday fun, and a little Christmas magic.</p>
+<div class="actions"><a class="btn gold" href="#token">Explore token ↓</a><button class="btn ghost" id="heroConnect">Connect Solana wallet</button></div>
+<p class="tiny">This website is a project starter. The token mint address has not been added or verified yet.</p>
+</div><div class="hero-art"><img src="assets/santa-gift-logo.png" alt="Santa Gift red present with gold ribbon and Santa hat"></div></div></section>
+<div class="ticker">✦ SANTA GIFT • COMMUNITY • GENEROSITY • CHRISTMAS MAGIC ✦</div>
+<section class="section" id="about"><div class="wrap"><div class="head"><div class="kicker">The spirit of Santa</div><h2>A festive token concept built around giving.</h2><p>Share holiday art, celebrate together, and make any community giveaway transparent and fair.</p></div>
+<div class="cards"><article class="card"><div class="emoji">🎅</div><h3>Community first</h3><p>A friendly space for festive ideas, community art, and seasonal events.</p></article><article class="card"><div class="emoji">🎁</div><h3>Gift-inspired</h3><p>Any real giveaway should publish clear rules, eligibility, and deadlines.</p></article><article class="card"><div class="emoji">✨</div><h3>Transparent by design</h3><p>No guaranteed returns or profit promises. Verify official addresses before interacting.</p></article></div></div></section>
+<section class="section dark" id="token"><div class="wrap details"><div><div class="kicker">Token details</div><h2>Santa Gift on Solana</h2><p>Use Devnet to test token creation, metadata, and transfers before considering a Mainnet launch.</p><div class="warning">⚠️ The token is not deployed by this website. Do not send funds to a placeholder address. Devnet tokens have no real monetary value.</div></div>
+<div class="panel"><div class="rowline"><span>Token name</span><strong>Santa Gift</strong></div><div class="rowline"><span>Symbol</span><strong>SANTAGIFT</strong></div><div class="rowline"><span>Planned supply</span><strong>100,000,000</strong></div><div class="rowline"><span>Blockchain</span><strong>Solana</strong></div><div class="rowline"><span>Current test network</span><strong><span class="status">Devnet first</span></strong></div><div class="rowline"><span>Mint address</span><strong id="mintAddress">Not deployed</strong></div><button class="btn gold" id="copyMint" style="width:100%;margin-top:18px">Copy mint address</button><p class="tiny">Replace “Not deployed” only after verifying the real mint address in Solana Explorer.</p></div></div></section>
+<section class="section" id="community"><div class="wrap"><div class="cta"><div><h2>Ready to spread some cheer?</h2><p style="margin-bottom:0;color:#ffe1dc">Test safely, publish clearly, and build community one step at a time.</p></div><button class="btn gold" id="communityConnect">Connect wallet</button></div><div class="panel" style="margin-top:20px"><strong>Wallet connection status</strong><div class="wallet-status" id="walletStatus" role="status" aria-live="polite">Not connected. No wallet details are stored by this page.</div><p class="tiny">Connecting only requests your public wallet address. This site never asks for a recovery phrase or private key. Review wallet prompts carefully.</p></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footrow"><div><strong style="color:var(--cream)">🎁 Santa Gift Token</strong><br>Made with Christmas spirit.</div><div>Independent community project concept. Crypto assets are risky.</div><div>© <span id="year"></span> Santa Gift</div></div></footer>
+<script>
+const statusEl=document.getElementById('walletStatus');
+const mintAddress=''; // Add a verified Solana mint address here after creation.
+const mintEl=document.getElementById('mintAddress');
+if(mintAddress){mintEl.textContent=mintAddress;}
+function walletProvider(){
+  if(window.phantom?.solana?.isPhantom) return window.phantom.solana;
+  if(window.solflare?.isSolflare) return window.solflare;
+  if(window.solana?.isPhantom) return window.solana;
+  return null;
+}
+async function connectWallet(){
+  const provider=walletProvider();
+  if(!provider){
+    statusEl.textContent='No compatible Solana wallet detected. Install Phantom from its official website, then reload this page.';
+    window.open('https://phantom.app/', '_blank', 'noopener,noreferrer');
+    return;
+  }
+  try{
+    const result=await provider.connect();
+    const key=result?.publicKey?.toString?.() || provider.publicKey?.toString?.();
+    statusEl.textContent=key ? 'Connected public address: '+key : 'Wallet connection requested. Check your wallet.';
+  }catch(e){
+    statusEl.textContent=e?.code===4001?'Connection cancelled in wallet.':'Could not connect. Please unlock your wallet and try again.';
+  }
+}
+document.querySelectorAll('#navConnect,#heroConnect,#communityConnect').forEach(b=>b.addEventListener('click',connectWallet));
+document.getElementById('copyMint').addEventListener('click',async()=>{
+  if(!mintAddress){statusEl.textContent='No mint address yet. Create and verify the token first.';return;}
+  try{await navigator.clipboard.writeText(mintAddress);statusEl.textContent='Mint address copied.';}
+  catch(e){statusEl.textContent='Mint address: '+mintAddress;}
+});
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
